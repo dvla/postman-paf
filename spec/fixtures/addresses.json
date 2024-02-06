@@ -1,0 +1,3083 @@
+[
+  {
+    "Rule 1": {
+      "Org Only": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": "Rule 1 Test organisationName",
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": null,
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 1 Test organisationName",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Org & Dept Only": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": "Rule 1 Test organisationName",
+          "departmentName": "Rule 1 Test departmentName",
+          "subBuildingName": null,
+          "buildingName": null,
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 1 Test organisationName",
+          "line2": "Rule 1 Test departmentName",
+          "line3": "dependentThoroughfareName",
+          "line4": "thoroughfareName",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Org Dept & PO Box Only": {
+        "paf": {
+          "poBoxNumber": "12345",
+          "organisationName": "Rule 1 Test organisationName",
+          "departmentName": "Rule 1 Test departmentName",
+          "subBuildingName": null,
+          "buildingName": null,
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 1 Test organisationName",
+          "line2": "Rule 1 Test departmentName",
+          "line3": "PO BOX 12345",
+          "line4": "dependentThoroughfareName",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Org & PO Box Only": {
+        "paf": {
+          "poBoxNumber": "12345",
+          "organisationName": "Rule 1 Test organisationName",
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": null,
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 1 Test organisationName",
+          "line2": "PO BOX 12345",
+          "line3": "dependentThoroughfareName",
+          "line4": "thoroughfareName",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Dept & PO Box Only": {
+        "paf": {
+          "poBoxNumber": "12345",
+          "organisationName": null,
+          "departmentName": "Order of Precedence Test departmentName",
+          "subBuildingName": null,
+          "buildingName": null,
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Order of Precedence Test departmentName",
+          "line2": "PO BOX 12345",
+          "line3": "dependentThoroughfareName",
+          "line4": "thoroughfareName",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Dept Only": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": "Order of Precedence Test departmentName",
+          "subBuildingName": null,
+          "buildingName": null,
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Order of Precedence Test departmentName",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "PO Box Only": {
+        "paf": {
+          "poBoxNumber": "12345",
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": null,
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "PO BOX 12345",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      }
+    },
+    "Rule 2": {
+      "Building Number Only": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": null,
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "12345 dependentThoroughfareName",
+          "line2": "thoroughfareName",
+          "line3": "doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Number No Dependent Thoroughfare": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": null,
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": null,
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "12345 thoroughfareName",
+          "line2": "doubleDependentLocality",
+          "line3": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Number No Thoroughfare Elements": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": null,
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "12345 doubleDependentLocality",
+          "line2": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Number Only Dependent Locality": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": null,
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": null,
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "12345 dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      }
+    },
+    "Rule 3": {
+      "Building Name Exception iv - back of": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exceptionFour back of 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exceptionFour back of 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - block": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception four block 12A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception four block 12A",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - blocks": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception four blocks 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception four blocks 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - building": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingNameExceptionFour building 12A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingNameExceptionFour building 12A",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - flat": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception four flat 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception four flat 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - maisonette": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule3BuildingNameExceptionFour maisonette 12A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule3BuildingNameExceptionFour maisonette 12A",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - maisonettes": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule3BuildingNameExceptnFour maisonettes 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule3BuildingNameExceptnFour maisonettes 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - rear of": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingNameException four rear of 12A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingNameException four rear of 12A",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - shop": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception four shop 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception four shop 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - shops": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception four shops 12A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception four shops 12A",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - stall": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception four stall 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception four stall 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - stalls": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception four stalls 12A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception four stalls 12A",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - suite": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception four suite 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception four suite 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Rule 3 Building Name Exception iv - suites": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception four suites 12A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception four suites 12A",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - unit": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception four unit 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception four unit 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception iv - units": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception four units 12A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception four units 12A",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Only": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 Test buildingName only",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 Test buildingName only",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name (single word)": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "buildingName",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "buildingName",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name No Dependent Thoroughfare": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 Test buildingName only",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 Test buildingName only",
+          "line2": "thoroughfareName",
+          "line3": "doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name No Thoroughfare Elements": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 Test buildingName only",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 Test buildingName only",
+          "line2": "doubleDependentLocality",
+          "line3": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Only Dependent Locality": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 Test buildingName only",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": null,
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 Test buildingName only",
+          "line2": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception i": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "1",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1 dependentThoroughfareName",
+          "line2": "thoroughfareName",
+          "line3": "doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception i No Dependent Thoroughfare": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "1",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1 thoroughfareName",
+          "line2": "doubleDependentLocality",
+          "line3": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception ii": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "1A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1A dependentThoroughfareName",
+          "line2": "thoroughfareName",
+          "line3": "doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception ii No Dependent Thoroughfare": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "1A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1A thoroughfareName",
+          "line2": "doubleDependentLocality",
+          "line3": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iii": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "A dependentThoroughfareName",
+          "line2": "thoroughfareName",
+          "line3": "doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iii No Dependent Thoroughfare": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "A thoroughfareName",
+          "line2": "doubleDependentLocality",
+          "line3": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception i": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception one 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception one",
+          "line2": "1-2 dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception ii": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception two 1A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception two",
+          "line2": "1A dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception v (decimal point)": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception five 1.0",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception five 1.0",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception v (forward slash)": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception five 1/0",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception five 1/0",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name Exception To Rule": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName exception To Rule 123",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName exception To Rule 123",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name numeric part with Number & No Exception": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 3 buildingName12345NoException",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 3 buildingName12345NoException",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      }
+    },
+    "Rule 4": {
+      "Building Name & Number": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 4 buildingName",
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 4 buildingName",
+          "line2": "12345 dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name & Number No Dependent Thoroughfare": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 4 buildingName",
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": null,
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 4 buildingName",
+          "line2": "12345 thoroughfareName",
+          "line3": "doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name & Number No Thoroughfare Elements": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 4 buildingName",
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 4 buildingName",
+          "line2": "12345 doubleDependentLocality",
+          "line3": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name & Number No Thoroughfare & No Locality Elements": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 4 buildingName",
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": null,
+          "dependentLocality": null,
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 4 buildingName",
+          "line2": "12345",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name & Number Only Dependent Locality": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "Rule 4 buildingName",
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": null,
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 4 buildingName",
+          "line2": "12345 dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      }
+    },
+    "Rule 5": {
+      "Sub Building Name & Number": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 5 subBuildingName",
+          "buildingName": null,
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 5 subBuildingName",
+          "line2": "12345 dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Sub Building Name & Number No Dependent Thoroughfare": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 5 subBuildingName",
+          "buildingName": null,
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": null,
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 5 subBuildingName",
+          "line2": "12345 thoroughfareName",
+          "line3": "doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Sub Building Name & Number No Thoroughfare Elements": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 5 subBuildingName",
+          "buildingName": null,
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 5 subBuildingName",
+          "line2": "12345 doubleDependentLocality",
+          "line3": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Sub Building Name & Number No Thoroughfare & No Locality Elements": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 5 subBuildingName",
+          "buildingName": null,
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": null,
+          "dependentLocality": null,
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 5 subBuildingName",
+          "line2": "12345",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Sub Building Name & Number Only Dependent Locality": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 5 subBuildingName",
+          "buildingName": null,
+          "buildingNumber": "12345",
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": null,
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 5 subBuildingName",
+          "line2": "12345 dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception i": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1exception one1",
+          "buildingName": null,
+          "buildingNumber": "1",
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1exception one1 1 dependentThoroughfareName",
+          "line2": "thoroughfareName",
+          "line3": "doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception ii": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1exception two1A",
+          "buildingName": null,
+          "buildingNumber": "1",
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1exception two1A 1 dependentThoroughfareName",
+          "line2": "thoroughfareName",
+          "line3": "doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iii (Mainfile Concatenation Indicator)": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "A",
+          "buildingName": null,
+          "buildingNumber": "1",
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1A dependentThoroughfareName",
+          "line2": "thoroughfareName",
+          "line3": "doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      }
+    },
+    "Rule 6": {
+      "Exception iv BName & Exception i Sub Building Name - back of": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception One 1",
+          "buildingName": "Rule 6 bdngName back of 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception One 1 Rule 6 bdngName back of 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - block": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception Two 1A",
+          "buildingName": "Rule 6 bdngName block 1B",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception Two 1A Rule 6 bdngName block 1B",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - blocks": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "A",
+          "buildingName": "Rule 6 bdngName blocks 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "A Rule 6 bdngName blocks 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - building": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception One 1",
+          "buildingName": "Rule 6 bdngName building 1b",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception One 1 Rule 6 bdngName building 1b",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - flat": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception two 1a",
+          "buildingName": "Rule 6 bdngName flat 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception two 1a Rule 6 bdngName flat 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - maisonette": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "a",
+          "buildingName": "Rule 6 bdngName maisonette 1b",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "a Rule 6 bdngName maisonette 1b",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - maisonettes": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception One 1",
+          "buildingName": "Rule 6 bName maisonettes 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception One 1 Rule 6 bName maisonettes 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - rear of": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception One 1A",
+          "buildingName": "Rule 6 bName rear of 1B",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception One 1A Rule 6 bName rear of 1B",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - shop": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "A",
+          "buildingName": "Rule 6 bName shop 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "A Rule 6 bName shop 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - shops": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception One 1",
+          "buildingName": "Rule 6 bName shops 1b",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception One 1 Rule 6 bName shops 1b",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - stall": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception two 1A",
+          "buildingName": "Rule 6 bName stall 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception two 1A Rule 6 bName stall 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - stalls": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "A",
+          "buildingName": "Rule 6 bName stalls 1b",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "A Rule 6 bName stalls 1b",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - suite": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception One 1",
+          "buildingName": "Rule 6 bName suite 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception One 1 Rule 6 bName suite 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - suites": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception TWO 1",
+          "buildingName": "Rule 6 bName suites 1B",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception TWO 1 Rule 6 bName suites 1B",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - unit": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "a",
+          "buildingName": "Rule 6 bName unit 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "a Rule 6 bName unit 1-2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iv BName & Exception ii Sub Building Name - units": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception One 1",
+          "buildingName": "Rule 6 bName units 1B",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception One 1 Rule 6 bName units 1B",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building & Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 6 subBuildingName",
+          "buildingName": "Rule 6 buildingName",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 6 subBuildingName",
+          "line2": "Rule 6 buildingName",
+          "line3": "dependentThoroughfareName",
+          "line4": "thoroughfareName",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building Name (single word) & Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 6 subBuildingName",
+          "buildingName": "buildingName",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 6 subBuildingName",
+          "line2": "buildingName",
+          "line3": "dependentThoroughfareName",
+          "line4": "thoroughfareName",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building & Sub Building Name No Dependent Thoroughfare": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 6 subBuildingName",
+          "buildingName": "Rule 6 buildingName",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 6 subBuildingName",
+          "line2": "Rule 6 buildingName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building & Sub Building Name No Thoroughfare Elements": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 6 subBuildingName",
+          "buildingName": "Rule 6 buildingName",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 6 subBuildingName",
+          "line2": "Rule 6 buildingName",
+          "line3": "doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Building & Sub Building Name Only Dependent Locality": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 6 subBuildingName",
+          "buildingName": "Rule 6 buildingName",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": null,
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 6 subBuildingName",
+          "line2": "Rule 6 buildingName",
+          "line3": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception i Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception One 1",
+          "buildingName": "Rule 6 buildingName",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception One 1 Rule 6 buildingName",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception ii Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception two 1A",
+          "buildingName": "Rule 6 buildingName",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception two 1A Rule 6 buildingName",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iii Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "A",
+          "buildingName": "Rule 6 buildingName",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "A Rule 6 buildingName",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception i Building & Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception One 1",
+          "buildingName": "Rule 6 buildingName 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception One 1 Rule 6 buildingName",
+          "line2": "1-2 dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception i Building Name & Sub Building Name No Dependent Thoroughfare": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception One 1",
+          "buildingName": "1Rule 6 buildingName 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception One 1",
+          "line2": "1Rule 6 buildingName 1-2 thoroughfareName",
+          "line3": "doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception i Building Name (numeric part) & Sub Building Name No Exception": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "subBuildingName",
+          "buildingName": "Rule 6 buildingName 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "subBuildingName",
+          "line2": "Rule 6 buildingName",
+          "line3": "1-2 thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception i Building Name & Exception ii Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception two 1A",
+          "buildingName": "Rule 6 buildingName 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception two 1A Rule 6 buildingName",
+          "line2": "1-2 dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception i Building Name & Exception iii Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "A",
+          "buildingName": "Rule 6 buildingName 1-2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "A Rule 6 buildingName",
+          "line2": "1-2 dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception ii Building Name & Exception i Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception one 1",
+          "buildingName": "Rule 6 buildingName 1A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception one 1 Rule 6 buildingName",
+          "line2": "1A dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception ii Building Name & Exception ii Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception two 1A",
+          "buildingName": "Rule 6 buildingName 1A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception two 1A Rule 6 buildingName",
+          "line2": "1A dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception ii Building Name & Exception iii Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "a",
+          "buildingName": "Rule 6 buildingName 1A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "a Rule 6 buildingName",
+          "line2": "1A dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iii Building Name & Exception i Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception one 1",
+          "buildingName": "A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception one 1",
+          "line2": "A dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iii Building Name & Exception ii Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception TWO 1A",
+          "buildingName": "A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception TWO 1A",
+          "line2": "A dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iii Building Name & Exception iii Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "A",
+          "buildingName": "b",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "A",
+          "line2": "b dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception v Building Name & Exception i Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception one 1",
+          "buildingName": "Rule 6 exception five 1.2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception one 1 Rule 6 exception five 1.2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception v Building Name & Exception ii Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "1Exception one 1",
+          "buildingName": "Rule 6 exception five 1/2",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1Exception one 1 Rule 6 exception five 1/2",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception To Rule Building Name & Exception iii Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "a",
+          "buildingName": "Rule 6 buildingName exception To Rule 123",
+          "buildingNumber": null,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "a Rule 6 buildingName exception To Rule 123",
+          "line2": "dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      }
+    },
+    "Rule 7": {
+      "Sub Building Name, Building Name & Building Number": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 7 subBuildingName",
+          "buildingName": "Rule 7 buildingName",
+          "buildingNumber": 7,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 7 subBuildingName",
+          "line2": "Rule 7 buildingName",
+          "line3": "7 dependentThoroughfareName",
+          "line4": "thoroughfareName",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "No Dependent Thoroughfare Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 7 subBuildingName",
+          "buildingName": "Rule 7 buildingName",
+          "buildingNumber": 7,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 7 subBuildingName",
+          "line2": "Rule 7 buildingName",
+          "line3": "7 thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "No Thoroughfare Element": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 7 subBuildingName",
+          "buildingName": "Rule 7 buildingName",
+          "buildingNumber": 7,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 7 subBuildingName",
+          "line2": "Rule 7 buildingName",
+          "line3": "7 doubleDependentLocality",
+          "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "No Thoroughfare & No Locality Elements": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 7 subBuildingName",
+          "buildingName": "Rule 7 buildingName",
+          "buildingNumber": 7,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": null,
+          "dependentLocality": null,
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 7 subBuildingName",
+          "line2": "Rule 7 buildingName",
+          "line3": "7",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Only Dependent Locality": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "Rule 7 subBuildingName",
+          "buildingName": "Rule 7 buildingName",
+          "buildingNumber": 7,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": null,
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "Rule 7 subBuildingName",
+          "line2": "Rule 7 buildingName",
+          "line3": "7 dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception i Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "7Rule 7 subBuildingName7",
+          "buildingName": "Rule 7 buildingName",
+          "buildingNumber": 7,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "7Rule 7 subBuildingName7 Rule 7 buildingName",
+          "line2": "7 dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception ii Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "7Rule 7 subBuildingName7a",
+          "buildingName": "Rule 7 buildingName",
+          "buildingNumber": 7,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "7Rule 7 subBuildingName7a Rule 7 buildingName",
+          "line2": "7 dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iii Sub Building Name": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": "a",
+          "buildingName": "Rule 7 buildingName",
+          "buildingNumber": 7,
+          "dependentThoroughfareName": "dependentThoroughfareName",
+          "thoroughfareName": "thoroughfareName",
+          "doubleDependentLocality": "doubleDependentLocality",
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "a Rule 7 buildingName",
+          "line2": "7 dependentThoroughfareName",
+          "line3": "thoroughfareName",
+          "line4": "doubleDependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      }
+    }
+  }
+]
