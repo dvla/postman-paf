@@ -4,9 +4,27 @@ require 'json'
 require 'logger'
 require 'simple_symbolize'
 
-Dir['./lib/postman_paf/**/*.rb'].each do |file|
-  require file
-end
+require_relative 'postman_paf/exceptions/exceptions'
+require_relative 'postman_paf/exceptions/last_part_exceptions'
+require_relative 'postman_paf/exceptions/rule_3_exceptions'
+require_relative 'postman_paf/exceptions/rule_5_and_7_exceptions'
+require_relative 'postman_paf/exceptions/rule_6_exceptions'
+require_relative 'postman_paf/exceptions/which_exception'
+require_relative 'postman_paf/rules/address_builder'
+require_relative 'postman_paf/rules/building_number'
+require_relative 'postman_paf/rules/rule_1'
+require_relative 'postman_paf/rules/rule_2'
+require_relative 'postman_paf/rules/rule_3'
+require_relative 'postman_paf/rules/rule_4'
+require_relative 'postman_paf/rules/rule_5'
+require_relative 'postman_paf/rules/rule_6'
+require_relative 'postman_paf/rules/rule_7'
+require_relative 'postman_paf/rules/rules'
+require_relative 'postman_paf/rules/which_rule'
+require_relative 'postman_paf/converter'
+require_relative 'postman_paf/printable_address'
+require_relative 'postman_paf/validator'
+require_relative 'postman_paf/version'
 
 module PostmanPAF
   # Initialise Logger output.
