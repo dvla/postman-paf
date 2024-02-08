@@ -1,6 +1,6 @@
 # PostmanPAF
 
-Convert PAF (Postcode Address File) addresses to a printable format for an envelope or address label.
+Converts Royal Mail PAF (Postcode Address File) addresses to a printable format for an envelope or address label.
 
 This is an unofficial gem to apply Royal Mail Rules & Exceptions when converting PAF addresses. 
 Based on the [Royal Mail Programmers' Guide](https://www.poweredbypaf.com/wp-content/uploads/2017/07/Latest-Programmers_guide_Edition-7-Version-6.pdf), 'Formatting a PAF address for printing' (page 27).
