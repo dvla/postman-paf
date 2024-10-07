@@ -2988,6 +2988,39 @@
           "dps": "1A"
         }
       },
+      "All Expected Elements": {
+        "paf": {
+          "uprn": "111111",
+          "udprn": "1111111",
+          "poBoxNumber": "dummy_poBoxNumber",
+          "organisationName": "dummy organisationName",
+          "departmentName": "dummy departmentName",
+          "subBuildingName": "dummy subBuildingName",
+          "buildingName": "MAIN BUILDING",
+          "buildingNumber": "11",
+          "dependentThoroughfareName": "LONG VIEW ROAD",
+          "thoroughfareName": "dummy thoroughfareName",
+          "doubleDependentLocality": "dummy doubleDependentLocality",
+          "dependentLocality": "MORRISTON",
+          "postTown": "SWANSEA",
+          "postcode": "SA99 1AA",
+          "dps": "1A",
+          "mailsort": "dummy-mailsort",
+          "language": "EN",
+          "country": "UNITED KINGDOM"
+        },
+        "printable": {
+          "line1": "dummy organisationName",
+          "line2": "dummy departmentName",
+          "line3": "PO BOX dummy_poBoxNumber",
+          "line4": "dummy subBuildingName",
+          "line5": "SWANSEA",
+          "postcode": "SA99 1AA",
+          "country": "UNITED KINGDOM",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
       "Exception i Sub Building Name": {
         "paf": {
           "poBoxNumber": null,
