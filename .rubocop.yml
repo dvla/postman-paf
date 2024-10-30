@@ -1,5 +1,10 @@
+inherit_gem:
+  dvla-lint: '.rubocop.yml'
+
 AllCops:
   TargetRubyVersion: 3.0.0
+  NewCops: enable
+  SuggestExtensions: false
 
 Layout/LineLength:
   Max: 180
@@ -8,7 +13,7 @@ Metrics/AbcSize:
   Enabled: false
 
 Metrics/BlockLength:
-  IgnoredMethods:
+  AllowedMethods:
     - 'describe'
     - 'context'
 

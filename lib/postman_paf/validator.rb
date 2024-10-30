@@ -29,7 +29,7 @@ module PostmanPAF
       nil
     end
 
-    private
+  private
 
     # Verifies input of single Hash contains required address elements.
     # @raise [ArgumentError] if Hash is missing required address elements.
@@ -59,7 +59,7 @@ module PostmanPAF
     # @return [Boolean] whether both keys were found.
     def criteria_for_paf_address?(hash:)
       hash = hash.transform_keys { |k| SimpleSymbolize.camelize(k).to_s }
-      hash.keys.include?(POST_TOWN) && hash.keys.include?(POSTCODE)
+      hash.key?(POST_TOWN) && hash.key?(POSTCODE)
     end
   end
 end
