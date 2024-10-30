@@ -42,7 +42,7 @@ RSpec.describe PostmanPAF::Validator do
   end
 
   it 'will error on input of Array of Hashes missing required keys' do
-    input_array1 = [{ postTown: 'Valid key', postcode: 'Also valid key' }, { postTown: 'Valid key', 'place': 'Invalid key' }]
+    input_array1 = [{ postTown: 'Valid key', postcode: 'Also valid key' }, { postTown: 'Valid key', place: 'Invalid key' }]
     input_array2 = [{ region: 'Invalid key', postcode: 'Valid key' }, { postTown: 'Valid key', postcode: 'Also valid key' }]
 
     expect { PostmanPAF::Validator.new(input: input_array1).validate }.to raise_error(ArgumentError, MISSING_REQUIRED_HASH_KEYS_MSG)

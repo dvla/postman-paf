@@ -13,7 +13,7 @@ RSpec.describe PostmanPAF::Converter do
       postcode: 'SA99 1BN',
       country: 'Wales',
       language: 'EN',
-      dps: '1A'
+      dps: '1A',
     }
   end
 
@@ -40,7 +40,7 @@ RSpec.describe PostmanPAF::Converter do
                                                       postcode: 'SA99 1BN',
                                                       dps: '1A',
                                                       language: 'EN',
-                                                      country: 'WALES'
+                                                      country: 'WALES',
                                                     }, max_line_length: 10)
       expected_printable_address = { 'line1' => '1A EXAMPLE',
                                      'line5' => 'EXAMPLE TO',

@@ -15,10 +15,10 @@ module PostmanPAF
         lines.each_with_index do |line, index|
           line_number = index + 1
           line = line.to_s if line.is_a?(Integer)
-          printable_address.send("line#{line_number}=", line) if line_number >= 1 && line_number <= 5
+          printable_address.send(:"line#{line_number}=", line) if line_number >= 1 && line_number <= 5
         end
 
-        printable_address.postcode = paf_address[POSTCODE].slice(0..7)
+        printable_address.postcode = paf_address[POSTCODE]
         printable_address.country = paf_address[COUNTRY]
         printable_address.language = paf_address[LANGUAGE]
         printable_address.dps = paf_address[DPS]

@@ -39,7 +39,7 @@ module PostmanPAF
                         :no_exception
                       end
 
-          premise_element_exception = "#{SimpleSymbolize.snakeize(premise_element)}_#{exception}".to_sym
+          premise_element_exception = :"#{SimpleSymbolize.snakeize(premise_element)}_#{exception}"
           exceptions << premise_element_exception
         end
       end

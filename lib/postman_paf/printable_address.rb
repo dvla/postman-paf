@@ -28,7 +28,7 @@ module PostmanPAF
         'postcode' => @postcode,
         'country' => @country,
         'language' => @language,
-        'dps' => @dps
+        'dps' => @dps,
       }
     end
   end

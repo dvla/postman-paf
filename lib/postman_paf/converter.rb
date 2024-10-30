@@ -18,7 +18,7 @@ module PostmanPAF
       @max_line_length = if max_line_length.is_a?(Integer) || max_line_length.is_a?(String)
                            max_line_length.to_i.positive? ? max_line_length.to_i : nil
                          end
-      @logging = logging.is_a?(TrueClass) ? true : false
+      @logging = logging.is_a?(TrueClass)
     end
 
     # Handles conversion of single or multiple PAF addresses (i.e. single
@@ -34,7 +34,7 @@ module PostmanPAF
       converted_addresses.count.eql?(1) ? converted_addresses.pop : converted_addresses
     end
 
-    private
+  private
 
     # Converts a single PAF address to printable format after determining
     #   applicable rule and exception(s). Truncation and logging optional.

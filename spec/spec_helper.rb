@@ -10,7 +10,6 @@ end
 
 require 'hash_miner'
 require 'logger'
-require 'pry'
 require 'postman_paf'
 require 'simple_symbolize'
 
