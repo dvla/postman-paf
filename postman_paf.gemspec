@@ -22,13 +22,5 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = %w[lib]
 
-  spec.add_dependency 'bundler-audit', '~> 0.9.2'
-  spec.add_dependency 'dvla-lint', '~> 1.8.0'
-  spec.add_dependency 'hash_miner', '~> 1.1.3'
-  spec.add_dependency 'rake', '~> 13.2.1'
-  spec.add_dependency 'rspec', '~> 3.13.0'
-  spec.add_dependency 'rubocop', '~> 1.67.0'
-  spec.add_dependency 'simplecov', '~> 0.22.0'
-  spec.add_dependency 'simplecov-console', '~> 0.9.2'
   spec.add_dependency 'simple_symbolize', '~> 4.0'
 end
