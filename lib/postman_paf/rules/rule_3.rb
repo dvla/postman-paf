@@ -19,7 +19,9 @@ module PostmanPAF
 
         case exception
         when :exception_i, :exception_ii, :exception_iii
-          if paf_address[DEPENDENT_THOROUGHFARE_NAME]
+          if paf_address[THOROUGHFARE_NAME].nil? && paf_address[DEPENDENT_LOCALITY]
+            data << "#{paf_address[BUILDING_NAME]} #{paf_address[DEPENDENT_LOCALITY]}"
+          elsif paf_address[DEPENDENT_THOROUGHFARE_NAME]
             data << "#{paf_address[BUILDING_NAME]} #{paf_address[DEPENDENT_THOROUGHFARE_NAME]}"
             data << paf_address[THOROUGHFARE_NAME]
           else
@@ -37,7 +39,9 @@ module PostmanPAF
         end
 
         data << paf_address[DOUBLE_DEPENDENT_LOCALITY] unless data.include?(paf_address[DOUBLE_DEPENDENT_LOCALITY])
-        data << paf_address[DEPENDENT_LOCALITY] unless data.include?(paf_address[DEPENDENT_LOCALITY])
+        unless data.include?("#{paf_address[BUILDING_NAME]} #{paf_address[DEPENDENT_LOCALITY]}") || data.include?(paf_address[DEPENDENT_LOCALITY])
+          data << paf_address[DEPENDENT_LOCALITY]
+        end
         data
       end
     end

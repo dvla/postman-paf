@@ -986,6 +986,33 @@
           "dps": "1A"
         }
       },
+      "Exception i No Thoroughfare Name With Dependent Locality Only": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "1 buildingName 4",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": null,
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "1 buildingName 4 dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
       "Exception i No Dependent Thoroughfare": {
         "paf": {
           "poBoxNumber": null,
@@ -1045,6 +1072,33 @@
           "dps": "1A"
         }
       },
+      "Exception ii No Thoroughfare Name With Dependent Locality Only": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "51A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": null,
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "51A dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
       "Exception ii No Dependent Thoroughfare": {
         "paf": {
           "poBoxNumber": null,
@@ -1097,6 +1151,33 @@
           "line2": "thoroughfareName",
           "line3": "doubleDependentLocality",
           "line4": "dependentLocality",
+          "line5": "postTown",
+          "postcode": "SA99 1BN",
+          "country": "Wales",
+          "language": "EN",
+          "dps": "1A"
+        }
+      },
+      "Exception iii No Thoroughfare Name With Dependent Locality Only": {
+        "paf": {
+          "poBoxNumber": null,
+          "organisationName": null,
+          "departmentName": null,
+          "subBuildingName": null,
+          "buildingName": "A",
+          "buildingNumber": null,
+          "dependentThoroughfareName": null,
+          "thoroughfareName": null,
+          "doubleDependentLocality": null,
+          "dependentLocality": "dependentLocality",
+          "postTown": "postTown",
+          "postcode": "SA99 1BN",
+          "dps": "1A",
+          "language": "EN",
+          "country": "Wales"
+        },
+        "printable": {
+          "line1": "A dependentLocality",
           "line5": "postTown",
           "postcode": "SA99 1BN",
           "country": "Wales",
