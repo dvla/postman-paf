@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = %w[lib]
 
-  spec.add_dependency 'simple_symbolize', '~> 4.0'
+  spec.add_dependency 'simple_symbolize', '>= 4.0'
 end
